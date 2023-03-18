@@ -5,7 +5,7 @@
 This lab is an app that displays information about cryptocurrencies, which was accessed using API calls. It also includes a search bar that allows users to search for a specific currency.
 
 ## Project Demo
-<img src="walkthrough.gif" width="780px" >
+<img src="https://github.com/hzeng33/Crypto-Hustle-Lite/blob/main/walkthrough.gif" width="780px" >
 
 
 ## Setup
