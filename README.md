@@ -1,11 +1,11 @@
-# Crypto-Hustle-Lite
+# Crypto Hustle Pro 
 
 ## Overview
 
-This lab is an app that displays information about cryptocurrencies, which was accessed using API calls. It also includes a search bar that allows users to search for a specific currency.
+This app displays information about cryptocurrencies and allows for clicking on each currency to get more detailed information, which was accessed using API calls. It also includes a search bar that allows users to search for a specific currency.
 
-## Project Demo
-<img src="https://github.com/hzeng33/Crypto-Hustle-Lite/blob/main/walkthrough.gif" width="780px" >
+## Project Gif Walkthrough
+<img src=""   width="750px"/>
 
 
 ## Setup
@@ -16,6 +16,8 @@ This lab is an app that displays information about cryptocurrencies, which was a
 * [Vite React Plugin](https://www.npmjs.com/package/@vitejs/plugin-react)
 * [React](https://www.npmjs.com/package/react)
 * [React-DOM](https://www.npmjs.com/package/react-dom)
+* [React Router DOM](https://www.npmjs.com/package/react-router-dom) (v.6)
+* [Recharts](https://www.npmjs.com/package/recharts)
 
 ---
 
@@ -29,14 +31,15 @@ To install the dependencies, run:
 npm install
 ```
 
-### Run Crypto Hustle Lite
+### Run Crypto Hustle Pro
 
-Note: In the 'required features only' version of this lab, there is no side navigation bar with the list of crypto scams, however the current state of this repo includes the stretch features, where that side nav bar has been included.
+Note: In the 'required features only' version of this lab, there is no chart at the bottom of the detail page with the mapping of the coin price over the last 30 days, however the current state of this repo includes the stretch features, where that price graph is included.
 
 In the repo directory, run the following in your terminal:
 
 ```sh
 npm run dev
+
 ```
 
 Visit the web application in the browser
@@ -45,13 +48,14 @@ Visit the web application in the browser
 http://localhost:5173/
 ```
 
-### Deploy Crypto Hustle Lite
+### Deploy Crypto Hustle Pro
 
 To deploy this application on Netlify, run the following in the repo directory:
 
 ```sh
 npm install
 npm run build
+
 ```
 
 Upload the generated `dist` file to Netlify at:
