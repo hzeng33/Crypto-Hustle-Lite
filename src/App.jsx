@@ -2,6 +2,7 @@ import "./App.css";
 import React, { useEffect, useState } from "react";
 import CoinInfo from "./Components/coinInfo";
 import SideNav from "./Components/sideNav";
+
 const API_KEY =
   "8afd07a1fdaed1ae3466a6d9c04416a66f328924bb74e6d89b3288f239419b0d";
 
@@ -14,8 +15,7 @@ function App() {
     // declare the async data fetching function
     const fetchAllCoinData = async () => {
       const response = await fetch(
-        "https://min-api.cryptocompare.com/data/all/coinlist?&api_key=" +
-          API_KEY
+        "https://min-api.cryptocompare.com/data/all/coinlist?&api_key" + API_KEY
       );
       const json = await response.json();
       setList(getBlockchainCoins(json.Data));

@@ -13,7 +13,6 @@ const CryptoScam = () => {
         "https://api.cryptoscamdb.org/v1/featured",
         requestOptions
       );
-      console.log(response);
       const json = await response.json();
       setScamList(json);
     };
@@ -26,7 +25,7 @@ const CryptoScam = () => {
       scams:
       <ul className="side-list">
         {scamList &&
-          scamList.result.map((scam) => <li key={scam.name}>{scam.name}</li>)}
+          scamList.result.map((item) => <li key={item.name}>{item.name}</li>)}
       </ul>
     </div>
   );
