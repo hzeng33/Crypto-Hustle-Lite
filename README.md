@@ -5,7 +5,7 @@
 This app displays information about cryptocurrencies and allows for clicking on each currency to get more detailed information, which was accessed using API calls. It also includes a search bar that allows users to search for a specific currency.
 
 ## Project Gif Walkthrough
-<img src=""   width="750px"/>
+<img src="https://github.com/hzeng33/Crypto_Hustle_Pro/blob/main/gifWalkthrough.gif"   height="400px" width="750px"/>
 
 
 ## Setup
